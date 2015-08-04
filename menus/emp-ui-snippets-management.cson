@@ -1,0 +1,29 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle emp-ui-snippets-management'
+      'command': 'emp-ui-snippets-management:snippets-management'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'emp-ui-snippets-management'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'emp-ui-snippets-management:snippets-management'
+        }
+      ]
+    ]
+  }
+  {
+    'label': 'Emp'
+    'submenu': [
+        {type: 'separator'}
+        {'label': 'UI Snippets Management', 'command': 'emp-ui-snippets-management:snippets-management' }
+    ]
+  }
+]

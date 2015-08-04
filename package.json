@@ -1,0 +1,30 @@
+{
+  "name": "emp-ui-snippets-management",
+  "main": "./lib/emp-ui-snippets-management",
+  "version": "0.0.0",
+  "description": "EMP 基础 UI 管理器",
+  "maintainers": [
+  {
+    "name": "Ju Chao",
+    "email": "ju.chao@rytong.com"
+  }
+  ],
+  "bugs": {
+    "url": "https://github.com/RYTong/emp-ui-snippets-management/issues"
+  },
+  "keywords": ["EMP", "Snippets"
+  ],
+  "activationCommands": {
+    "atom-workspace": "emp-ui-snippets-management:snippets-management"
+  },
+  "repository": "https://github.com/atom/emp-ui-snippets-management",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.2",
+    "fs-plus": "*",
+    "cson":"*"
+  }
+}
